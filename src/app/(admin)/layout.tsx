@@ -18,12 +18,12 @@ const Layout = ({ children }: ChildrenType) => {
           <>
             <HorizontalLayout>
               {children}
-            </HorizontalLayout>
-          </>
+              {/* </HorizontalLayout> */}
+            </>
         )}
-      </>
+          </>
     </AuthProtectionWrapper>
-  )
+      )
 }
 
-export default Layout
+      export default Layout
